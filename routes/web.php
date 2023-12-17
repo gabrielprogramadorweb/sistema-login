@@ -26,3 +26,5 @@ Route::get('/departamentos', 'DepartamentoControlador@index');
 Route::get('/usuario', function(){
     return view('usuario');
 });
+
+Route::get('/admin', 'AdminController@index')->name('homeadmin');
