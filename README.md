@@ -54,7 +54,7 @@ As views para login e registro são geradas automaticamente com o comando `make:
 
 ### 6. Autenticação em Controladores
 
-Você pode usar a trait `AuthenticatesUsers` em seus controladores para adicionar funcionalidades de login e logout.
+Você pode usar a trait `AuthenticatesUsers` em seus controladores para adicionar funcionalidades de login e logout:
 
 ```php
 use AuthenticatesUsers;
